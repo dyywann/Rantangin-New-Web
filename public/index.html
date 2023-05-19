@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rantangin</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="font-poppins">
+    <nav class="bg-white border-gray-200 dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="https://flowbite.com/" class="flex items-center">
+                <img src="asset/logo-rantangin.svg" class="h-8 mr-3" alt="Rantangin Logo" />
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
+            </a>
+
+            <button data-collapse-toggle="navbar-default" type="button"
+                class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                        clip-rule="evenodd"></path>
+                </svg>
+            </button>
+
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul
+                    class="font-medium font-poppins flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                        <a href="#home"
+                            class="block py-2 pl-3 pr-4 text-white bg-accent rounded md:bg-transparent md:text-accent md:p-0 dark:text-white md:dark:text-blue-500"
+                            aria-current="page">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about"
+                            class="block py-2 pl-3 pr-4 text-gray-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-accent md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About
+                            Us</a>
+                    </li>
+                    <li>
+                        <a href="#service"
+                            class="block py-2 pl-3 pr-4 text-gray-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-accent md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+                    </li>
+                    <li>
+                        <a href="#join"
+                            class="block py-2 pl-3 pr-4 text-gray-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-accent md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Joint
+                            Merchant</a>
+                    </li>
+                    <li>
+                        <a href="#order"
+                            class="block py-2 pl-3 pr-4 text-gray-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-accent md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">How
+                            to Order</a>
+                    </li>
+                    <li>
+                        <a href="#contact"
+                            class="block py-2 pl-3 pr-4 text-gray-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-accent md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact
+                            US</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Section Home-->
+    <section class="bg-gray-50 h-min w-auto" id="home">
+        <div class="mx-auto max-w-screen-xl px-4 pt-32 justify-center lg:items-center">
+            <div class="mx-auto max-w-xl  text-center">
+                <h1 class="text-3xl font-extrabold font-poppinssm:text-5xl">
+                    <span class="font-poppins text-red-700 typing-text"></span>
+                    <br>Gak Usah Bingung Lagi<br>Rantangin solusinya
+                </h1>
+
+                <p class="mt-4 sm:text-lg font-poppins">
+                    Rantangin merupakan aplikasi layanan katering digital
+                    sebagai solusimu untuk menemukan katering praktis
+                </p>
+            </div>
+
+            <div class="lg:justify-center flex mt-28">
+                <img src="asset/hero-home.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!--Section About Us-->
+    <section class="bg-secondary" id="about">
+        <div class="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:pt-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="font-poppins text-3xl text-white font-extrabold pb-10">ABOUT <span
+                        class="text-accent">US</span></h2>
+            </div>
+
+            <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+
+                <div
+                    class="max-w-lg lg:mt-32 sm:mt-0 p-6 h-fit bg-accent border border-gray-700 rounded-2xl lg:order-last shadow">
+                    <h5 class="mb-2 text-2xl font-poppins font-bold tracking-tight text-white">
+                        Visi Rantangin
+                    </h5>
+                    <p class="mb-3 font-normal text-white">
+                        Mendukung optimalisasi UMKM Katering go digital
+                        demi meningkatkan kesejahteraan pertumbuhan ekonomi Indonesia.
+                    </p>
+                </div>
+
+                <div class="lg:py-24">
+                    <h2 class="text-3xl font-bold font-poppins text-accent sm:text-4xl">Rantangin Adalah</h2>
+
+                    <p class="mt-4 text-white font-poppins font-light text-sm">
+                        Rantangin merupakan marketplace katering berbasis aplikasi yang berfokus
+                        pada sistem layanan katering digital untuk konsumen yang terdiri dari layanan
+                        pre-order, paket langganan, dan prasmanan, serta layanan untuk UMKM kuliner
+                        yaitu jasa pendampingan dan pembinaan yang terdiri dari jasa pengurusan
+                        sertifikasi BPOM dan Halal, desain branding produk, pelatihan bisnis bagi pelaku
+                        UMKM untuk memiliki kesiapan bisnis yang matang. Rantangin menjadi solusi tepat
+                        untuk kamu yang mencari konsumsi berupa katering untuk acara/kegiatan dengan
+                        kuantitas pesanan yang banyak dan praktis
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Section Service-->
+    <section class="bg-accent h-min" id="service">
+        <h1 class="font-poppins text-3xl font-extrabold text-center justify-center py-10 sm:py-10 text-white">Kenapa
+            Harus
+            Rantangin</h1>
+
+        <div class="flex flex-wrap justify-center item-center gap-6 pb-20">
+            <div class="flex flex-col bg-white rounded-2xl w-80 m-2 sm:w-64">
+                <img src="asset/bowl-rice-solid.svg" alt="" class="h-20 m-6">
+
+                <h4 class="text-center px-2 font-bold text-sm font-poppins">
+                    Pilihan Menu Katering Yang Variatif
+                </h4>
+
+                <p class="text-center text-xs font-poppins px-2 pb-6 pt-5">
+                    Kamu dapat memilih jenis menu katering favoritmu dengan jumlah
+                    banyak dengan sistem pemesanan pre-order.
+                </p>
+            </div>
+
+            <div class="flex flex-col bg-white rounded-2xl w-80 m-2 sm:w-64">
+                <img src="asset/radar-2.svg" alt="" class="h-20 m-6">
+
+                <h4 class="text-center px-2 font-bold text-sm font-poppins">
+                    Mudah Mencari Katering Terdekat dan Berkualitas
+                </h4>
+
+                <p class="text-center text-xs font-poppins px-2 pb-6 pt-5">
+                    Kamu dapat memesan katering terdekat dari mitra Rantangin yang
+                    berkualitas.
+                </p>
+            </div>
+
+            <div class="flex flex-col bg-white rounded-2xl w-80 m-2 sm:w-64">
+                <img src="asset/card-tick.svg" alt="" class="h-20 m-6">
+
+                <h4 class="text-center px-2 font-bold text-sm font-poppins">
+                    Sistem Pembayaran digital Dengan E-wallet Terpopuler
+                </h4>
+                <p class="text-center text-xs font-poppins px-2 pb-6 pt-5">
+                    Kamu dapat membayar pesananmu dengan E-wallet yang kamu miliki dan
+                    terjamin aman.
+                </p>
+            </div>
+
+            <div class="flex flex-col bg-white rounded-2xl w-80 m-2 sm:w-64">
+                <img src="asset/truck-fast.svg" alt="" class="h-20 m-6">
+
+                <h4 class="text-center px-2 font-bold text-sm font-poppins">
+                    Pengantaran dijamin Tepat Waktu
+                </h4>
+                <p class="text-center text-xs font-poppins px-2 pb-6 pt-5">
+                    Tinggal klik order sekarang, pesananmu akan sampai tepat waktu
+                    sesuai jadwal pesananmu.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Section Joint Merchant-->
+    <section class="bg-gray-50 h-min" id="join">
+        <div class="mx-auto max-w-screen-xl px-4 py-8 sm:py-96 lg:py-0 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16 content-center">
+                <div class="relative lg:mt-20 sm:mt-0 overflow-hidden rounded-sm h-80 sm:h-3/4 lg:h-5/6 lg:order-first">
+                    <img alt="Party" src="asset/hero-mitra.svg" class="absolute inset-0 h-full w-full object-fill" />
+                </div>
+
+                <div class="lg:py-14">
+                    <h6 class="font-poppins font-semibold text-gray-400">Masih Bingung Cara Gabung Menjadi Mitra
+                        Rantangin?
+                    </h6>
+                    <p class="text-2xl font-bold font-poppins text-accent sm:text-3xl pb-6">Gak usah bingung lagi gabung
+                        jadi mitra rantangin sangatlah mudah. Berikut cara gabung menjadi mitra Rantangin
+                    </p>
+
+                    <ol class="relative border-l ml-5 border-gray-200 dark:border-gray-700">
+                        <li class="mb-10 ml-10">
+                            <span
+                                class="absolute flex items-center justify-center w-10 h-10 bg-accent rounded-full -left-5">
+                                <svg width="367" height="367" viewBox="0 0 24 24" class="w-5 h-5" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M14.3498 2H9.64977C8.60977 2 7.75977 2.84 7.75977 3.88V4.82C7.75977 5.86 8.59977 6.7 9.63977 6.7H14.3498C15.3898 6.7 16.2298 5.86 16.2298 4.82V3.88C16.2398 2.84 15.3898 2 14.3498 2Z"
+                                        fill="#FFFFFF" />
+                                    <path
+                                        d="M17.2391 4.81949C17.2391 6.40949 15.9391 7.70949 14.3491 7.70949H9.64906C8.05906 7.70949 6.75906 6.40949 6.75906 4.81949C6.75906 4.25949 6.15906 3.90949 5.65906 4.16949C4.24906 4.91949 3.28906 6.40949 3.28906 8.11949V17.5295C3.28906 19.9895 5.29906 21.9995 7.75906 21.9995H16.2391C18.6991 21.9995 20.7091 19.9895 20.7091 17.5295V8.11949C20.7091 6.40949 19.7491 4.91949 18.3391 4.16949C17.8391 3.90949 17.2391 4.25949 17.2391 4.81949ZM12.3791 16.9495H7.99906C7.58906 16.9495 7.24906 16.6095 7.24906 16.1995C7.24906 15.7895 7.58906 15.4495 7.99906 15.4495H12.3791C12.7891 15.4495 13.1291 15.7895 13.1291 16.1995C13.1291 16.6095 12.7891 16.9495 12.3791 16.9495ZM14.9991 12.9495H7.99906C7.58906 12.9495 7.24906 12.6095 7.24906 12.1995C7.24906 11.7895 7.58906 11.4495 7.99906 11.4495H14.9991C15.4091 11.4495 15.7491 11.7895 15.7491 12.1995C15.7491 12.6095 15.4091 12.9495 14.9991 12.9495Z"
+                                        fill="#FFFFFF" />
+                                </svg>
+                            </span>
+                            <h3
+                                class="flex items-center mb-1 text-lg font-poppins font-semibold text-gray-700 dark:text-white">
+                                Registrasi Terlebih Dahulu
+                            </h3>
+                            <p class="mb-4 text-base font-poppins font-normal text-gray-500 dark:text-gray-400">
+                                Anda dapat registrasi jualan anda apada link dibawah berikut
+                            </p>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeVX_sAk7wbIgouRG5CKv_V2PrFyG9uP1OEH__M6GRAZsWrwQ/viewform"
+                                class="inline-flex items-center px-4 py-2 text-sm font-poppins font-medium text-gray-900 
+                                bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 
+                                focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 
+                                dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 
+                                dark:focus:ring-gray-700">
+
+                                <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V7.414A2 2 0 0015.414 6L12 2.586A2 2 0 0010.586 2H6zm5 6a1 1 0 10-2 0v3.586l-1.293-1.293a1 1 0 10-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 11.586V8z"
+                                        clip-rule="evenodd"></path>
+
+                                </svg> Link Registrasi
+
+                            </a>
+
+                        <li class="mb-10 ml-10">
+                            <span
+                                class="absolute flex items-center justify-center w-10 h-10 bg-accent rounded-full -left-5">
+                                <svg width="367" height="367" viewBox="0 0 367 367" class="w-5 h-5" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M126.156 40.1406C126.156 30.6072 133.826 22.9375 143.359 22.9375H154.828C164.362 22.9375 172.031 30.6072 172.031 40.1406C172.031 49.674 164.362 57.3438 154.828 57.3438H143.359C133.826 57.3438 126.156 49.674 126.156 40.1406ZM143.359 74.5469H154.828C164.362 74.5469 172.031 82.2166 172.031 91.75C172.031 101.283 164.362 108.953 154.828 108.953H143.359C133.826 108.953 126.156 101.283 126.156 91.75C126.156 82.2166 133.826 74.5469 143.359 74.5469ZM40.1406 126.156H51.6094C61.1428 126.156 68.8125 133.826 68.8125 143.359C68.8125 152.893 61.1428 160.562 51.6094 160.562H40.1406C30.6072 160.562 22.9375 152.893 22.9375 143.359C22.9375 133.826 30.6072 126.156 40.1406 126.156ZM0 203.14C0 192.317 8.8166 183.5 19.6402 183.5H347.36C358.183 183.5 367 192.317 367 203.14C367 253.674 335.174 296.826 290.518 313.599L289.228 323.992C287.794 335.461 278.046 344.062 266.433 344.062H100.495C88.9545 344.062 79.1344 335.461 77.7008 323.992L76.4105 313.67C31.8258 296.826 0 253.674 0 203.14ZM160.562 143.359C160.562 133.826 168.232 126.156 177.766 126.156H189.234C198.768 126.156 206.438 133.826 206.438 143.359C206.438 152.893 198.768 160.562 189.234 160.562H177.766C168.232 160.562 160.562 152.893 160.562 143.359ZM91.75 143.359C91.75 133.826 99.4197 126.156 108.953 126.156H120.422C129.955 126.156 137.625 133.826 137.625 143.359C137.625 152.893 129.955 160.562 120.422 160.562H108.953C99.4197 160.562 91.75 152.893 91.75 143.359ZM74.5469 74.5469H86.0156C95.549 74.5469 103.219 82.2166 103.219 91.75C103.219 101.283 95.549 108.953 86.0156 108.953H74.5469C65.0135 108.953 57.3438 101.283 57.3438 91.75C57.3438 82.2166 65.0135 74.5469 74.5469 74.5469ZM229.375 143.359C229.375 133.826 237.045 126.156 246.578 126.156H258.047C267.58 126.156 275.25 133.826 275.25 143.359C275.25 152.893 267.58 160.562 258.047 160.562H246.578C237.045 160.562 229.375 152.893 229.375 143.359ZM212.172 74.5469H223.641C233.174 74.5469 240.844 82.2166 240.844 91.75C240.844 101.283 233.174 108.953 223.641 108.953H212.172C202.638 108.953 194.969 101.283 194.969 91.75C194.969 82.2166 202.638 74.5469 212.172 74.5469ZM298.188 143.359C298.188 133.826 305.857 126.156 315.391 126.156H326.859C336.393 126.156 344.062 133.826 344.062 143.359C344.062 152.893 336.393 160.562 326.859 160.562H315.391C305.857 160.562 298.188 152.893 298.188 143.359ZM280.984 74.5469H292.453C301.987 74.5469 309.656 82.2166 309.656 91.75C309.656 101.283 301.987 108.953 292.453 108.953H280.984C271.451 108.953 263.781 101.283 263.781 91.75C263.781 82.2166 271.451 74.5469 280.984 74.5469ZM212.172 22.9375H223.641C233.174 22.9375 240.844 30.6072 240.844 40.1406C240.844 49.674 233.174 57.3438 223.641 57.3438H212.172C202.638 57.3438 194.969 49.674 194.969 40.1406C194.969 30.6072 202.638 22.9375 212.172 22.9375Z"
+                                        fill="#FFFFFF" />
+                                </svg>
+                            </span>
+                            <h3 class="mb-1 text-lg font-poppins font-semibold text-gray-700">
+                                Pendaftaran Produk
+                            </h3>
+                            <p class="text-base font-poppins font-normal text-gray-500 dark:text-gray-400">
+                                Setelah masuk registrasi anda diminta untuk menginput menu katering beserta harga.
+                            </p>
+                        </li>
+
+                        <li class="mb-10 ml-10">
+                            <span
+                                class="absolute flex items-center justify-center w-10 h-10 bg-accent rounded-full -left-5">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M21.9989 12.8595C21.9989 15.1495 20.8189 17.1795 18.9989 18.4595L17.6589 21.4095C17.3489 22.0795 16.4489 22.2095 15.9789 21.6395L14.4989 19.8595C12.6389 19.8595 10.9289 19.2295 9.62891 18.1795L10.2289 17.4695C14.8489 17.1195 18.4989 13.4595 18.4989 8.99953C18.4989 8.23953 18.3889 7.48953 18.1889 6.76953C20.4589 7.96953 21.9989 10.2495 21.9989 12.8595Z"
+                                        fill="#FFFFFF" />
+                                    <path
+                                        d="M16.3 6.07C15.13 3.67 12.52 2 9.5 2C5.36 2 2 5.13 2 9C2 11.29 3.18 13.32 5 14.6L6.34 17.55C6.65 18.22 7.55 18.34 8.02 17.78L8.57 17.12L9.5 16C13.64 16 17 12.87 17 9C17 7.95 16.75 6.96 16.3 6.07ZM12 9.75H7C6.59 9.75 6.25 9.41 6.25 9C6.25 8.59 6.59 8.25 7 8.25H12C12.41 8.25 12.75 8.59 12.75 9C12.75 9.41 12.41 9.75 12 9.75Z"
+                                        fill="#FFFFFF" />
+                                </svg>
+                            </span>
+                            <h3 class="mb-1 text-lg font-poppins font-semibold text-gray-700 dark:text-white">
+                                Wawancara
+                            </h3>
+                            <p class="text-base font-poppins font-normal text-gray-500 dark:text-gray-400">
+                                Setelah melakukan regitrasi dan pendaftran produk
+                                Tim kami akan meminta waktu anda untuk wawancara tentang
+                                profil usaha dan produk anda.
+                            </p>
+                        </li>
+
+                        <li class="mb-10 ml-10">
+                            <span
+                                class="absolute flex items-center justify-center w-10 h-10 bg-accent rounded-full -left-5">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M14.3498 2H9.64977C8.60977 2 7.75977 2.84 7.75977 3.88V4.82C7.75977 5.86 8.59977 6.7 9.63977 6.7H14.3498C15.3898 6.7 16.2298 5.86 16.2298 4.82V3.88C16.2398 2.84 15.3898 2 14.3498 2Z"
+                                        fill="#FFFFFF" />
+                                    <path
+                                        d="M17.2391 4.81949C17.2391 6.40949 15.9391 7.70949 14.3491 7.70949H9.64906C8.05906 7.70949 6.75906 6.40949 6.75906 4.81949C6.75906 4.25949 6.15906 3.90949 5.65906 4.16949C4.24906 4.91949 3.28906 6.40949 3.28906 8.11949V17.5295C3.28906 19.9895 5.29906 21.9995 7.75906 21.9995H16.2391C18.6991 21.9995 20.7091 19.9895 20.7091 17.5295V8.11949C20.7091 6.40949 19.7491 4.91949 18.3391 4.16949C17.8391 3.90949 17.2391 4.25949 17.2391 4.81949ZM15.3391 12.7295L11.3391 16.7295C11.1891 16.8795 10.9991 16.9495 10.8091 16.9495C10.6191 16.9495 10.4291 16.8795 10.2791 16.7295L8.77906 15.2295C8.48906 14.9395 8.48906 14.4595 8.77906 14.1695C9.06906 13.8795 9.54906 13.8795 9.83906 14.1695L10.8091 15.1395L14.2791 11.6695C14.5691 11.3795 15.0491 11.3795 15.3391 11.6695C15.6291 11.9595 15.6291 12.4395 15.3391 12.7295Z"
+                                        fill="#FFFFFF" />
+                                </svg>
+                            </span>
+                            <h3 class="mb-1 text-lg font-poppins font-semibold text-gray-700 dark:text-white">
+                                Verifikasi Kontrak
+                            </h3>
+                            <p class="text-base font-poppins font-normal text-gray-500 dark:text-gray-400">
+                                Pada tahap ini tim kami akan menyerahkan
+                                MoU yang akan disetujui oleh anda selaku pemilik usaha.
+                            </p>
+                        </li>
+
+                        <li class="mb-10 ml-10">
+                            <span
+                                class="absolute flex items-center justify-center w-10 h-10 bg-accent rounded-full -left-5">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M22.3596 8.27L22.0696 5.5C21.6496 2.48 20.2796 1.25 17.3497 1.25H14.9896H13.5097H10.4697H8.98965H6.58965C3.64965 1.25 2.28965 2.48 1.85965 5.53L1.58965 8.28C1.48965 9.35 1.77965 10.39 2.40965 11.2C3.16965 12.19 4.33965 12.75 5.63965 12.75C6.89965 12.75 8.10965 12.12 8.86965 11.11C9.54965 12.12 10.7097 12.75 11.9997 12.75C13.2896 12.75 14.4197 12.15 15.1096 11.15C15.8797 12.14 17.0696 12.75 18.3096 12.75C19.6396 12.75 20.8396 12.16 21.5896 11.12C22.1896 10.32 22.4597 9.31 22.3596 8.27Z"
+                                        fill="#FFFFFF" />
+                                    <path
+                                        d="M11.3491 16.6602C10.0791 16.7902 9.11914 17.8702 9.11914 19.1502V21.8902C9.11914 22.1602 9.33914 22.3802 9.60914 22.3802H14.3791C14.6491 22.3802 14.8691 22.1602 14.8691 21.8902V19.5002C14.8791 17.4102 13.6491 16.4202 11.3491 16.6602Z"
+                                        fill="#FFFFFF" />
+                                    <path
+                                        d="M21.3709 14.3981V17.3781C21.3709 20.1381 19.1309 22.3781 16.3709 22.3781C16.1009 22.3781 15.8809 22.1581 15.8809 21.8881V19.4981C15.8809 18.2181 15.4909 17.2181 14.7309 16.5381C14.0609 15.9281 13.1509 15.6281 12.0209 15.6281C11.7709 15.6281 11.5209 15.6381 11.2509 15.6681C9.47086 15.8481 8.12086 17.3481 8.12086 19.1481V21.8881C8.12086 22.1581 7.90086 22.3781 7.63086 22.3781C4.87086 22.3781 2.63086 20.1381 2.63086 17.3781V14.4181C2.63086 13.7181 3.32086 13.2481 3.97086 13.4781C4.24086 13.5681 4.51086 13.6381 4.79086 13.6781C4.91086 13.6981 5.04086 13.7181 5.16086 13.7181C5.32086 13.7381 5.48086 13.7481 5.64086 13.7481C6.80086 13.7481 7.94086 13.3181 8.84086 12.5781C9.70086 13.3181 10.8209 13.7481 12.0009 13.7481C13.1909 13.7481 14.2909 13.3381 15.1509 12.5981C16.0509 13.3281 17.1709 13.7481 18.3109 13.7481C18.4909 13.7481 18.6709 13.7381 18.8409 13.7181C18.9609 13.7081 19.0709 13.6981 19.1809 13.6781C19.4909 13.6381 19.7709 13.5481 20.0509 13.4581C20.7009 13.2381 21.3709 13.7181 21.3709 14.3981Z"
+                                        fill="#FFFFFF" />
+                                </svg>
+                            </span>
+                            <h3 class="mb-1 text-lg font-poppins font-semibold text-gray-700 dark:text-white">
+                                Berhasil!!!
+                            </h3>
+                            <p class="text-base font-poppins font-normal text-gray-500 dark:text-gray-400">
+                                Setelah menandatangani MoU anda telah berhasil begabung menjadi
+                                mintra Rantangin
+                            </p>
+                        </li>
+                    </ol>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Section Order-->
+    <section class="bg-gray-50 h-min" id="order">
+        <div class="mx-auto max-w-screen-xl px-4 py-8 sm:py-96 lg:py-0 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16 content-center">
+                <div class="relative lg:mt-16 sm:mt-0 overflow-hidden rounded-md h-80 sm:h-3/4 lg:order-first lg:h-5/6">
+                    <img alt="Party" src="asset/hero-order.svg" class="absolute inset-0 h-full w-full object-fill" />
+                </div>
+
+                <div class="lg:py-14">
+                    <h6 class="font-poppins font-semibold text-gray-400">
+                        Bagaimana Cara Pesan Katering Di Rantangin?
+                    </h6>
+                    <p class="text-2xl font-bold font-poppins text-accent sm:text-3xl pb-6">
+                        Memesan katering di Rantangin sangatlah mudah anda hanya
+                        perlu ikuti langkah-langkah berikut ini.
+                    </p>
+
+                    <ol class="relative border-l ml-5 border-gray-200 dark:border-gray-700">
+                        <li class="mb-10 ml-10">
+                            <span
+                                class="absolute flex items-center justify-center w-10 h-10 bg-accent rounded-full -left-5">
+                                <svg width="367" height="367" viewBox="0 0 24 24" class="w-5 h-5" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M14.4183 5.49006C13.9422 5.40212 13.505 5.70592 13.4144 6.1706C13.3238 6.63528 13.6285 7.08897 14.0916 7.1799C15.4859 7.45172 16.5624 8.53098 16.8353 9.93002V9.93101C16.913 10.3337 17.2675 10.6265 17.6759 10.6265C17.7306 10.6265 17.7854 10.6215 17.8412 10.6115C18.3043 10.5186 18.609 10.0659 18.5184 9.60024C18.1111 7.51068 16.5027 5.89679 14.4183 5.49006Z"
+                                        fill="white" />
+                                    <path
+                                        d="M14.356 2.00805C14.1329 1.97607 13.9088 2.04203 13.7305 2.18393C13.5473 2.32783 13.4328 2.53569 13.4079 2.76853C13.3551 3.23921 13.6947 3.66491 14.1648 3.71788C17.4064 4.07963 19.926 6.60489 20.2905 9.85666C20.3393 10.2924 20.7048 10.6211 21.141 10.6211C21.1739 10.6211 21.2058 10.6191 21.2386 10.6151C21.4667 10.5902 21.6699 10.4772 21.8133 10.2974C21.9557 10.1175 22.0204 9.89364 21.9945 9.66479C21.5404 5.60758 18.4003 2.45874 14.356 2.00805Z"
+                                        fill="white" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M11.0317 12.9725C15.0208 16.9605 15.9258 12.3468 18.4656 14.8849C20.9143 17.3329 22.3216 17.8233 19.2192 20.9248C18.8306 21.2371 16.3616 24.9944 7.6846 16.3198C-0.993478 7.64412 2.76158 5.17257 3.07397 4.78407C6.18387 1.67397 6.66586 3.0895 9.11449 5.53745C11.6544 8.07662 7.04266 8.98454 11.0317 12.9725Z"
+                                        fill="white" />
+                                </svg>
+                            </span>
+                            <h3
+                                class="flex items-center mb-1 text-lg font-poppins font-semibold text-gray-700 dark:text-white">
+                                Hubungi Kontak Kami
+                            </h3>
+                            <p class="mb-4 text-base font-poppins font-normal text-gray-500 dark:text-gray-400">
+                                0813-1177-1160 (WhatsApp) untuk pemesanan atau anda bisa klik tombol dibawah ini.
+                            </p>
+                            <a href="https://api.whatsapp.com/send/?phone=%2B6281311771160&text&type=phone_number&app_absent=0"
+                                class="inline-flex items-center px-4 py-2 text-sm font-poppins font-medium text-gray-700 
+                                    bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 
+                                    focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 
+                                    dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 
+                                    dark:focus:ring-gray-700">
+
+                                <svg width="24" height="24" class="mr-2" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M12 2C6.477 2 2 6.477 2 12C2 13.89 2.525 15.66 3.438 17.168L2.546 20.2C2.49478 20.3741 2.49141 20.5587 2.53624 20.7346C2.58107 20.9104 2.67245 21.0709 2.80076 21.1992C2.92907 21.3276 3.08958 21.4189 3.26542 21.4638C3.44125 21.5086 3.62592 21.5052 3.8 21.454L6.832 20.562C8.39068 21.5051 10.1782 22.0025 12 22C17.523 22 22 17.523 22 12C22 6.477 17.523 2 12 2ZM9.738 14.263C11.761 16.285 13.692 16.552 14.374 16.577C15.411 16.615 16.421 15.823 16.814 14.904C16.8636 14.7897 16.8816 14.6641 16.8661 14.5405C16.8507 14.4168 16.8023 14.2996 16.726 14.201C16.178 13.501 15.437 12.998 14.713 12.498C14.5618 12.3935 14.3761 12.3516 14.1947 12.381C14.0133 12.4105 13.8503 12.509 13.74 12.656L13.14 13.571C13.1085 13.6202 13.0593 13.6555 13.0026 13.6696C12.9459 13.6837 12.8859 13.6756 12.835 13.647C12.428 13.414 11.835 13.018 11.409 12.592C10.983 12.166 10.611 11.6 10.402 11.219C10.3761 11.1706 10.3686 11.1144 10.3809 11.0609C10.3932 11.0074 10.4245 10.9602 10.469 10.928L11.393 10.242C11.5249 10.1273 11.61 9.9682 11.6321 9.79486C11.6542 9.62153 11.6118 9.44611 11.513 9.302C11.065 8.646 10.543 7.812 9.786 7.259C9.68831 7.1882 9.57386 7.14406 9.45393 7.13091C9.334 7.11776 9.21271 7.13606 9.102 7.184C8.182 7.578 7.386 8.588 7.424 9.627C7.449 10.309 7.716 12.24 9.738 14.263Z"
+                                        fill="#374151" />
+                                </svg>
+
+                                Buat Pesanan
+
+                            </a>
+
+                        <li class="mb-10 ml-10">
+                            <span
+                                class="absolute flex items-center justify-center w-10 h-10 bg-accent rounded-full -left-5">
+                                <svg width="367" height="367" viewBox="0 0 24 24" class="w-5 h-5" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16.7502 3.56V2C16.7502 1.59 16.4102 1.25 16.0002 1.25C15.5902 1.25 15.2502 1.59 15.2502 2V3.5H8.75023V2C8.75023 1.59 8.41023 1.25 8.00023 1.25C7.59023 1.25 7.25023 1.59 7.25023 2V3.56C4.55023 3.81 3.24023 5.42 3.04023 7.81C3.02023 8.1 3.26023 8.34 3.54023 8.34H20.4602C20.7502 8.34 20.9902 8.09 20.9602 7.81C20.7602 5.42 19.4502 3.81 16.7502 3.56Z"
+                                        fill="white" />
+                                    <path
+                                        d="M19 15C16.79 15 15 16.79 15 19C15 19.75 15.21 20.46 15.58 21.06C16.27 22.22 17.54 23 19 23C20.46 23 21.73 22.22 22.42 21.06C22.79 20.46 23 19.75 23 19C23 16.79 21.21 15 19 15ZM21.07 18.57L18.94 20.54C18.8 20.67 18.61 20.74 18.43 20.74C18.24 20.74 18.05 20.67 17.9 20.52L16.91 19.53C16.62 19.24 16.62 18.76 16.91 18.47C17.2 18.18 17.68 18.18 17.97 18.47L18.45 18.95L20.05 17.47C20.35 17.19 20.83 17.21 21.11 17.51C21.39 17.81 21.37 18.28 21.07 18.57Z"
+                                        fill="white" />
+                                    <path
+                                        d="M20 9.83984H4C3.45 9.83984 3 10.2898 3 10.8398V16.9998C3 19.9998 4.5 21.9998 8 21.9998H12.93C13.62 21.9998 14.1 21.3298 13.88 20.6798C13.68 20.0998 13.51 19.4598 13.51 18.9998C13.51 15.9698 15.98 13.4998 19.01 13.4998C19.3 13.4998 19.59 13.5198 19.87 13.5698C20.47 13.6598 21.01 13.1898 21.01 12.5898V10.8498C21 10.2898 20.55 9.83984 20 9.83984ZM9.21 18.2098C9.02 18.3898 8.76 18.4998 8.5 18.4998C8.24 18.4998 7.98 18.3898 7.79 18.2098C7.61 18.0198 7.5 17.7598 7.5 17.4998C7.5 17.2398 7.61 16.9798 7.79 16.7898C7.89 16.6998 7.99 16.6298 8.12 16.5798C8.49 16.4198 8.93 16.5098 9.21 16.7898C9.39 16.9798 9.5 17.2398 9.5 17.4998C9.5 17.7598 9.39 18.0198 9.21 18.2098ZM9.21 14.7098C9.16 14.7498 9.11 14.7898 9.06 14.8298C9 14.8698 8.94 14.8998 8.88 14.9198C8.82 14.9498 8.76 14.9698 8.7 14.9798C8.63 14.9898 8.56 14.9998 8.5 14.9998C8.24 14.9998 7.98 14.8898 7.79 14.7098C7.61 14.5198 7.5 14.2598 7.5 13.9998C7.5 13.7398 7.61 13.4798 7.79 13.2898C8.02 13.0598 8.37 12.9498 8.7 13.0198C8.76 13.0298 8.82 13.0498 8.88 13.0798C8.94 13.0998 9 13.1298 9.06 13.1698C9.11 13.2098 9.16 13.2498 9.21 13.2898C9.39 13.4798 9.5 13.7398 9.5 13.9998C9.5 14.2598 9.39 14.5198 9.21 14.7098ZM12.71 14.7098C12.52 14.8898 12.26 14.9998 12 14.9998C11.74 14.9998 11.48 14.8898 11.29 14.7098C11.11 14.5198 11 14.2598 11 13.9998C11 13.7398 11.11 13.4798 11.29 13.2898C11.67 12.9198 12.34 12.9198 12.71 13.2898C12.89 13.4798 13 13.7398 13 13.9998C13 14.2598 12.89 14.5198 12.71 14.7098Z"
+                                        fill="white" />
+                                </svg>
+                            </span>
+                            <h3 class="mb-1 text-lg font-poppins font-semibold text-gray-700">
+                                Buat Jadwal Acara
+                            </h3>
+                            <p class="text-base font-poppins font-normal text-gray-500 dark:text-gray-400">
+                                Lakukan pemesanan maksimal H-3 acara.
+                            </p>
+                        </li>
+
+                        <li class="mb-10 ml-10">
+                            <span
+                                class="absolute flex items-center justify-center w-10 h-10 bg-accent rounded-full -left-5">
+                                <svg width="26" height="26" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10.8 3.9L4.8 8.4C4.3 8.78 4 9.37 4 10V19C4 20.1 4.9 21 6 21H18C19.1 21 20 20.1 20 19V10C20 9.37 19.7 8.78 19.2 8.4L13.2 3.9C12.8532 3.64189 12.4323 3.50249 12 3.50249C11.5677 3.50249 11.1468 3.64189 10.8 3.9ZM12.5 12.5C12.5 13.33 11.83 14 11 14V17.5C11 17.78 10.78 18 10.5 18C10.22 18 10 17.78 10 17.5V14C9.17 14 8.5 13.33 8.5 12.5V10C8.5 9.72 8.72 9.5 9 9.5C9.28 9.5 9.5 9.72 9.5 10V12.5H10V10C10 9.72 10.22 9.5 10.5 9.5C10.78 9.5 11 9.72 11 10V12.5H11.5V10C11.5 9.72 11.72 9.5 12 9.5C12.28 9.5 12.5 9.72 12.5 10V12.5ZM14.5 18C14.22 18 14 17.78 14 17.5V14.5H13.5C13.22 14.5 13 14.28 13 14V11.5C13 10.62 13.57 9.87 14.36 9.61C14.67 9.5 15 9.75 15 10.09V17.5C15 17.78 14.78 18 14.5 18Z"
+                                        fill="white" />
+                                </svg>
+                            </span>
+
+                            <h3 class="mb-1 text-lg font-poppins font-semibold text-gray-700 dark:text-white">
+                                Pilih Jenis Menu
+                            </h3>
+
+                            <p class="text-base font-poppins font-normal text-gray-500 dark:text-gray-400">
+                                Pilih menu katering sesuai selera dan budget.
+                            </p>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact-->
+
+    <section>
+        <div class="mx-auto max-w-screen-2xl px-4 py-8 sm:px-6 lg:px-8">
+          <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+            <div class="bg-accent p-8 md:p-12 lg:px-16 lg:py-24">
+              <div class="mx-auto max-w-xl text-center">
+                <h2 class="text-sm font-bold text-white md:text-3xl">
+                  Jika anda memiliki pertanyaan dan masih bingung 
+                  bisa hubungi contact person dibawah
+                </h2>
+      
+                <p class="hidden text-white/90 sm:mt-4 sm:block">
+                    Anda dapat menghubungi contact person dibawah ini dengan menekan tombol yang tersedia, 
+                    costumer care kami siap melayani segala perntanyaan yang anda ajukan
+                </p>
+      
+                <div class="mt-4 md:mt-8">
+                  <a
+                    href="https://api.whatsapp.com/send/?phone=%2B6281311771160&text&type=phone_number&app_absent=0"
+                    class="inline-block rounded border border-white bg-white px-12 py-3 text-sm font-medium text-accent transition hover:bg-transparent hover:text-white focus:outline-none focus:ring focus:ring-yellow-400"
+                  >
+                    Hubungi Contact Persons
+                  </a>
+                </div>
+              </div>
+            </div>
+      
+            <div class="grid grid-cols-2 gap-4 md:grid-cols-1 lg:grid-cols-2">
+              <img
+                alt="Student"
+                src="asset/hero-mitra.svg"
+                class="h-40 w-full object-cover sm:h-56 md:h-full"
+              />
+      
+              <img
+                alt="Student"
+                src="asset/hero-order.svg"
+                class="h-40 w-full object-cover sm:h-56 md:h-full"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    
+
+    <!--Footer-->
+    <footer aria-label="Site Footer" class="bg-white">
+        <div class="max-w-screen-xl px-4 py-16 mx-auto space-y-8 sm:px-6 lg:space-y-16 lg:px-8">
+            <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
+                <div>
+                    <div class="text-teal-600">
+                        <img src="asset/logo-rantangin.svg" alt="" class="h-8">
+                    </div>
+
+                    <p class="max-w-xs mt-4 text-gray-500">
+                        Rantangin merupakan aplikasi layanan katering digital
+                        sebagai solusimu untuk menemukan katering praktis
+                    </p>
+
+                    <ul class="flex gap-6 mt-8">
+                        <li>
+                            <a href="/" rel="noreferrer" target="_blank"
+                                class="text-gray-700 transition hover:opacity-75">
+                                <span class="sr-only">Facebook</span>
+
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path fill-rule="evenodd"
+                                        d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="/" rel="noreferrer" target="_blank"
+                                class="text-gray-700 transition hover:opacity-75">
+                                <span class="sr-only">Instagram</span>
+
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path fill-rule="evenodd"
+                                        d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="/" rel="noreferrer" target="_blank"
+                                class="text-gray-700 transition hover:opacity-75">
+                                <span class="sr-only">Twitter</span>
+
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path
+                                        d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+                                </svg>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="/" rel="noreferrer" target="_blank"
+                                class="text-gray-700 transition hover:opacity-75">
+                                <span class="sr-only">GitHub</span>
+
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path fill-rule="evenodd"
+                                        d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="/" rel="noreferrer" target="_blank"
+                                class="text-gray-700 transition hover:opacity-75">
+                                <span class="sr-only">Dribbble</span>
+
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path fill-rule="evenodd"
+                                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-4">
+                    <div>
+                        <p class="font-medium text-gray-900">Services</p>
+
+                        <nav aria-label="Footer Navigation - Services" class="mt-6">
+                            <ul class="space-y-4 text-sm">
+                                <li>
+                                    <a href="#" class="text-gray-700 transition hover:opacity-75">
+                                        1on1 Coaching
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="text-gray-700 transition hover:opacity-75">
+                                        Company Review
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="text-gray-700 transition hover:opacity-75">
+                                        Accounts Review
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="text-gray-700 transition hover:opacity-75">
+                                        HR Consulting
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="text-gray-700 transition hover:opacity-75">
+                                        SEO Optimisation
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div>
+                        <p class="font-medium text-gray-900">Company</p>
+
+                        <nav aria-label="Footer Navigation - Company" class="mt-6">
+                            <ul class="space-y-4 text-sm">
+                                <li>
+                                    <a href="#" class="text-gray-700 transition hover:opacity-75">
+                                        About
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="text-gray-700 transition hover:opacity-75">
+                                        Meet the Team
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="text-gray-700 transition hover:opacity-75">
+                                        Accounts Review
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div>
+                        <p class="font-medium text-gray-900">Helpful Links</p>
+
+                        <nav aria-label="Footer Navigation - Company" class="mt-6">
+                            <ul class="space-y-4 text-sm">
+                                <li>
+                                    <a href="#" class="text-gray-700 transition hover:opacity-75">
+                                        Contact
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="text-gray-700 transition hover:opacity-75">
+                                        FAQs
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="text-gray-700 transition hover:opacity-75">
+                                        Live Chat
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div>
+                        <p class="font-medium text-gray-900">Legal</p>
+
+                        <nav aria-label="Footer Navigation - Legal" class="mt-6">
+                            <ul class="space-y-4 text-sm">
+                                <li>
+                                    <a href="#" class="text-gray-700 transition hover:opacity-75">
+                                        Accessibility
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="text-gray-700 transition hover:opacity-75">
+                                        Returns Policy
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="text-gray-700 transition hover:opacity-75">
+                                        Refund Policy
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="text-gray-700 transition hover:opacity-75">
+                                        Hiring Statistics
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+            <p class="text-xs text-gray-500">
+                &copy; 2023. Rantangin Indonesia. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+    <script defer src="../src/script.js"></script>
+</body>
+
+</html>
