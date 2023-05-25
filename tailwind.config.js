@@ -12,6 +12,9 @@ module.exports = {
     extend: {
       fontFamily: {
         poppins: "'Poppins', sans-serif",
+      },
+      backgroundImage: {
+        'home' : "url('/public/asset/hero-home.jpg')",
       }
     }
   },
